@@ -1,12 +1,13 @@
 #ifndef MANUSIA_H
 #define MANUSIA_H
+using namespace std;
 
 class manusia {
 public:
-    std::string name;
+    string name;
     jantung varJantung;
 
-    manusia(std::string pName)
+    manusia(string pName)
         : name(pName) {
         cout << name << " hidup\n";
     }
@@ -14,5 +15,4 @@ public:
         cout << name << " mati\n";
     }
 };
-
 #endif
